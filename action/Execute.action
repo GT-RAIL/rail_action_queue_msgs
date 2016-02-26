@@ -1,0 +1,12 @@
+# Define the goal
+bool execute_all    # set to true to execute all actions in the list (until an error occurs), otherwise execute just the first
+---
+# Define the result
+bool success                                      # true if action(s) executed successfully
+uint8 error                                       # error code as defined in carl_action_executor/GeneralAction
+rail_action_queue_msgs/GeneralAction last_action    # the last action executed, or the failing action on failure
+---
+# Define feedback message
+rail_action_queue_msgs/GeneralAction current_action           # the currently executing action
+rail_action_queue_msgs/GeneralAction last_completed_action    # the last completed action
+uint16 actions_remaining                                    # number of actions remaining to be executed

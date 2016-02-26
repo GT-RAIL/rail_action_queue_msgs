@@ -1,0 +1,6 @@
+/**
+\mainpage
+
+\b Messages for executing general robot actions in a queue
+ROS messages, services, and actionlib definitions for executing general actions on a mobile manipulator robot.
+*/
