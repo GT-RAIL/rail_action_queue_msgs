@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rail_action_queue_msgs</name>
-  <version>0.0.1</version>
+  <version>0.0.0</version>
   <description>Messages for executing a queue of general robot actions.</description>
 
   <maintainer email="dekent@gatech.edu">David Kent</maintainer>
