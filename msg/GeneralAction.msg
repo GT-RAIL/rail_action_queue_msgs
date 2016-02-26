@@ -1,5 +1,5 @@
 #actions
-unit8 NO_ACTION=0
+uint8 NO_ACTION=0
 uint8 NAVIGATE=1
 uint8 READY_ARM=2
 uint8 RETRACT_ARM=3
