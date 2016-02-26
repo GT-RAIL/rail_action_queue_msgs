@@ -20,9 +20,9 @@ install:
   - mkdir -p /tmp/ws/src
   - ln -s `pwd` /tmp/ws/src/package
   - cd /tmp/ws
-  - rosdep install --from-paths src --ignore-src --rosdistro indigo -y
+  - rosdep install --from-paths src --ignore-src --rosdistro hydro -y
 
 script:
-  - source /opt/ros/indigo/setup.bash
+  - source /opt/ros/hydro/setup.bash
   - catkin_make
   - catkin_make install
